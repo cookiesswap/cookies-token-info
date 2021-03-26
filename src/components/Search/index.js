@@ -437,10 +437,10 @@ export const Search = ({ small = false }) => {
               : below410
               ? 'Search...'
               : below470
-              ? 'Search PancakeSwap...'
+              ? 'Search Cookiesswap...'
               : below700
               ? 'Search pairs and tokens...'
-              : 'Search PancakeSwap pairs and tokens...'
+              : 'Search Cookiesswap pairs and tokens...'
           }
           value={value}
           onChange={(e) => {
